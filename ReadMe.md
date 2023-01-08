@@ -1,12 +1,21 @@
 # Usage
- - ပထမဆုံး ဒီ repo ကို fork ပါ
+ - ပထမဆုံး ဒီ repo ကို fork ပါ/ Use This Template လုပ်လဲ ရပါတယ်
  - မိမိ fork repo > setting > secrets > actions > new repo secret ထိနှိပ်ပြီး 
  - BOT_TOKEN 
- - OWNER_ID
- - GDRIVE_ID တစ်ခုချင်းကို name နေရာထား value တွင် Botfather, Rose, Gdrive folder id ထည့်
+ - OWNER_ID တစ်ခုချင်းကို name နေရာထား value တွင် Botfatherမှ token, Rose မှ IDထည့်
  - repo ရဲ့ Actions နေရာကိုနှိပ်
  - 🇲🇲 MLTB_Drivetalk ကိုထပ်နှိပ်
  - အပြာစာတန်းဘေးက Run Workflow ⬇ကိုနှိပ်
  - Run Workflow အစိမ်းရောင်စာကိုနှိပ်
  - ၂ မိနစ်လောက်စောင့်ပြီးရင် Bot သုံးလို့ရပါပြီ
- - ရပ်ချင်လျှင် အပေါ်နားက Cancel Workflow အနီရောင်နှိပ်ပါ
+ - Bot Run လျှင် /bsetting နှိပ် 
+ - ![image](https://user-images.githubusercontent.com/119148169/211188747-7925bea6-6588-4155-a1d4-37439f8dfe17.jpeg)
+ - အထက်ကလို token.pickle ဖိုင်တင်ပါ။
+ - ပြီးလျှင် config Vars တွေဖြည့်ပါ။ အောက်မှာ ဖြည့်နည်းနမူနာ ကြည့်ပါ။
+ - ![image](https://user-images.githubusercontent.com/119148169/211188867-5b0c6633-db05-4403-827c-15cf7a9061b4.jpeg)
+ - ⭐မဖြစ်မနေဖြည့်ရမှာက
+ - TELEGRAM_API
+ - TELEGRAM_HASH
+ - GDRIVE_ID
+ - ကျန်တာတွေက https://github.com/anasty17/mirror-leech-telegram-bot/blob/master/config_sample.env ထဲမှာ ကြည့်ပြီး ကိုပြင်ချင်တာ အပေါ်က ဒုတိယပုံအတိုင်းလိုက်ပြင်ပါ။
+ - bot သုံးစရာရှိတာ သုံးပြီး ရပ်ချင်လျှင် အပေါ်နားက Cancel Workflow အနီရောင်နှိပ်ပါ (အသစ်ပြန် run ရင် အထက်က လုပ်ငန်းစဥ် အစက ပြန်လုပ်ရန်)
